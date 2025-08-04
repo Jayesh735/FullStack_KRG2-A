@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The personal portfolio of Jayesh Saini, a passionate web developer based in Kanpur, India, showcasing skills and projects."
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <title>Jayesh Saini | Web Developer</title>
+  </head>
+  <body class="bg-slate-100 text-slate-800">
+    <header class="bg-gray-800 text-white sticky top-0 z-10">
+      <nav
+        class="container mx-auto flex items-center justify-between p-4"
+      >
+        <a href="#" class="text-xl font-bold">Jayesh Saini</a>
+        <ul class="navmenu hidden md:flex items-center space-x-6">
+          <li>
+            <a href="#home" class="hover:text-blue-300 transition-colors"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a href="#about" class="hover:text-blue-300 transition-colors"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              href="#qualifications"
+              class="hover:text-blue-300 transition-colors"
+              >Qualifications</a
+            >
+          </li>
+          <li>
+            <a href="#projects" class="hover:text-blue-300 transition-colors"
+              >Projects</a
+            >
+          </li>
+          <li>
+            <a href="#contact" class="hover:text-blue-300 transition-colors"
+              >Contact</a
+            >
+          </li>
+        </ul>
+        <button id="menu-btn" class="md:hidden focus:outline-none">
+          <i class="fas fa-bars fa-lg"></i>
+        </button>
+      </nav>
+      <div id="mobile-menu" class="hidden md:hidden">
+        <ul class="flex flex-col items-center p-4 space-y-4">
+          <li><a href="#home" class="block w-full text-center">Home</a></li>
+          <li><a href="#about" class="block w-full text-center">About</a></li>
+          <li>
+            <a href="#qualifications" class="block w-full text-center"
+              >Qualifications</a
+            >
+          </li>
+          <li>
+            <a href="#projects" class="block w-full text-center">Projects</a>
+          </li>
+          <li><a href="#contact" class="block w-full text-center">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main class="container mx-auto p-4 md:p-8">
+      <section id="home" class="text-center p-8 mb-8 bg-white rounded-xl shadow-md">
+        <h1 class="text-4xl md:text-5xl font-bold mb-4">Hello, I'm Jayesh Saini</h1>
+        <p class="text-lg text-slate-600 max-w-2xl mx-auto mb-6">
+          A passionate and creative web developer from India, currently pursuing my B.Tech at Chandigarh University. I specialize in building modern, responsive web applications.
+        </p>
+        <a
+          href="#projects"
+          class="inline-block bg-blue-600 text-white font-bold py-3 px-6 rounded-full hover:bg-blue-700 transition-transform duration-300 hover:scale-105"
+          >View My Work</a
+        >
+      </section>
+
+      <section id="about" class="p-8 mb-8 bg-white rounded-xl shadow-md">
+        <h2 class="text-3xl font-bold mb-6 text-center md:text-left">About Me</h2>
+        <div class="flex flex-col md:flex-row items-center gap-8">
+          <div class="flex-shrink-0">
+            <img
+              class="w-48 h-48 rounded-full object-cover shadow-lg"
+              src="https://placehold.co/400x400/E2E8F0/475569?text=JS"
+              alt="Profile picture of Jayesh Saini"
+            />
+          </div>
+          <div class="space-y-4 text-slate-600 text-center md:text-left">
+            <p>
+              I am a dedicated student and developer with a strong foundation in computer science fundamentals. My journey into programming started with a curiosity for how things work on the web, which has since evolved into a passion for creating seamless user experiences and robust backend systems.
+            </p>
+            <p>
+              Beyond coding, I'm an avid learner, always exploring new technologies and frameworks to enhance my skill set. I thrive in collaborative environments and am committed to writing clean, efficient, and scalable code.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="qualifications" class="p-8 mb-8 bg-white rounded-xl shadow-md">
+        <h2 class="text-3xl font-bold mb-6">My Qualifications</h2>
+        <div class="overflow-x-auto">
+          <table class="w-full text-left">
+            <thead class="bg-slate-200 text-slate-700">
+              <tr>
+                <th class="p-4 font-semibold">Degree / Course</th>
+                <th class="p-4 font-semibold">Institution</th>
+                <th class="p-4 font-semibold">Year of Completion</th>
+                <th class="p-4 font-semibold">Score / Grade</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-200">
+              <tr class="hover:bg-slate-50">
+                <td class="p-4">B.Tech CSE</td>
+                <td class="p-4">Chandigarh University</td>
+                <td class="p-4">2027 (Expected)</td>
+                <td class="p-4">8.5 CGPA</td>
+              </tr>
+              <tr class="hover:bg-slate-50">
+                <td class="p-4">Class 12th</td>
+                <td class="p-4">The Jain International School</td>
+                <td class="p-4">2023</td>
+                <td class="p-4">80%</td>
+              </tr>
+              <tr class="hover:bg-slate-50">
+                <td class="p-4">Class 10th</td>
+                <td class="p-4">Delhi Public School</td>
+                <td class="p-4">2021</td>
+                <td class="p-4">91%</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="projects" class="p-8 mb-8 bg-white rounded-xl shadow-md">
+        <h2 class="text-3xl font-bold mb-6">My Projects</h2>
+        <div class="overflow-x-auto">
+          <table class="w-full text-left">
+            <thead class="bg-slate-200 text-slate-600 uppercase tracking-wider text-sm">
+              <tr>
+                <th class="px-6 py-4 font-medium">Project Name</th>
+                <th class="px-6 py-4 font-medium">Description</th>
+                <th class="px-6 py-4 font-medium">Tech Used</th>
+                <th class="px-6 py-4 font-medium">Year</th>
+                <th class="px-6 py-4 font-medium">Link</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-200">
+              <tr class="hover:bg-slate-50">
+                <td class="px-6 py-4 align-top font-medium text-slate-900">Portfolio Website</td>
+                <td class="px-6 py-4 align-top">
+                  <ul class="list-disc list-inside space-y-2 text-slate-600">
+                    <li>Developed a responsive personal portfolio using Next.js and Tailwind CSS.</li>
+                    <li>Implemented a dynamic project showcase from a headless CMS.</li>
+                    <li>Optimized for performance, achieving a high Lighthouse score.</li>
+                  </ul>
+                </td>
+                <td class="px-6 py-4 align-top text-slate-600">Next.js, Tailwind, Vercel</td>
+                <td class="px-6 py-4 align-top text-slate-600">2024</td>
+                <td class="px-6 py-4 align-top">
+                  <a href="#" class="font-medium text-indigo-600 hover:text-indigo-800">View Project</a>
+                </td>
+              </tr>
+              <tr class="hover:bg-slate-50">
+                <td class="px-6 py-4 align-top font-medium text-slate-900">E-commerce Backend</td>
+                <td class="px-6 py-4 align-top">
+                  <ul class="list-disc list-inside space-y-2 text-slate-600">
+                    <li>Built a robust REST API for an e-commerce platform with Node.js.</li>
+                    <li>Integrated Stripe for payment processing and JWT for authentication.</li>
+                    <li>Designed a MongoDB schema for products, users, and orders.</li>
+                  </ul>
+                </td>
+                <td class="px-6 py-4 align-top text-slate-600">Node.js, Express, MongoDB</td>
+                <td class="px-6 py-4 align-top text-slate-600">2023</td>
+                <td class="px-6 py-4 align-top">
+                  <a href="#" class="font-medium text-indigo-600 hover:text-indigo-800">GitHub Link</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="bg-slate-900 text-white py-12 px-4">
+      <div class="container mx-auto flex flex-col items-center gap-6">
+        <h2 class="text-2xl font-semibold">Get in Touch</h2>
+        <div class="flex flex-wrap justify-center gap-4">
+          <a href="mailto:jayesh.saini.dev@example.com" target="_blank" class="flex items-center gap-2 bg-slate-700 hover:bg-indigo-600 transition-colors duration-300 px-4 py-2 rounded-full font-medium">
+            <i class="fas fa-envelope"></i><span>Email</span>
+          </a>
+          <a href="https://linkedin.com/in/yourprofile" target="_blank" class="flex items-center gap-2 bg-slate-700 hover:bg-indigo-600 transition-colors duration-300 px-4 py-2 rounded-full font-medium">
+            <i class="fab fa-linkedin"></i><span>LinkedIn</span>
+          </a>
+          <a href="https://github.com/jayesh735" target="_blank" class="flex items-center gap-2 bg-slate-700 hover:bg-indigo-600 transition-colors duration-300 px-4 py-2 rounded-full font-medium">
+            <i class="fab fa-github"></i><span>GitHub</span>
+          </a>
+          <a href="https://x.com/yourusername" target="_blank" class="flex items-center gap-2 bg-slate-700 hover:bg-indigo-600 transition-colors duration-300 px-4 py-2 rounded-full font-medium">
+            <i class="fab fa-twitter"></i><span>Twitter/X</span>
+          </a>
+        </div>
+        <div class="mt-6 text-center">
+          <p class="text-sm text-slate-400">&copy; 2025 Jayesh Saini | Based in Kanpur, India</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const menuBtn = document.getElementById("menu-btn");
+      const mobileMenu = document.getElementById("mobile-menu");
+      menuBtn.addEventListener("click", () => {
+        mobileMenu.classList.toggle("hidden");
+      });
+    </script>
+  </body>
+</html>
